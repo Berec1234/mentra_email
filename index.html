@@ -3,9 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
     <title>Mentra Wailist Email</title>
-    <style type="text/css">
-      @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+    <style>
+      /* @import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"); */
       body {
         margin: 0;
       }
@@ -45,27 +51,27 @@
         width: 16%;
         height: 16%;
         position: absolute;
-        top: 50%;
+        top: 10%;
         left: 5%;
         transform: translateY(-50%);
+        display: inline-block;
       }
       .logo-cont img {
         width: 100%;
         height: 100%;
+        /* display: inline-block; */
       }
-      .jakarta {
+      /* .jakarta {
         font-family: "Plus Jakarta Sans", sans-serif;
-      }
-      .philosopher {
-        font-family: "Philosopher", sans-serif;
-      }
-      .caveat {
-        font-family: "Caveat", cursive;
-      }
+      } */
+      /* .philosopher {
+        
+      } */
+
       .second-sec {
         padding: 50px;
-        background: url("./images/rocks.png");
-        background-size: cover;
+        /* background: url("./images/rocks.png");
+        background-size: cover; */
         width: 100%;
       }
       .second-sec h2 {
@@ -166,6 +172,7 @@
                           font-size: 25px;
                           padding-top: 50px;
                           color: #002c3c;
+                          font-family: 'Philosopher', sans-serif;
                         "
                       >
                         MENTRA
@@ -176,20 +183,45 @@
               </td>
             </tr>
           </table>
-          <table class="second-sec">
+          <table style="background-image: url('./images/rocks.png'); background-size: cover;" class="second-sec">
             <tr>
               <td>
-                <h2 style="font-weight: 400" class="philosopher">You're On</h2>
-                <h2 style="font-weight: 400" class="philosopher">The List</h2>
-                <p class="caveat">Your Journey Begins Here!</p>
+                <h2
+                  style="font-weight: 400"
+                  style="font-family: 'Philosopher', sans-serif"
+                  class="philosopher"
+                >
+                  You're On
+                </h2>
+                <h2
+                  style="font-weight: 400"
+                  style="font-family: 'Philosopher', sans-serif"
+                  class="philosopher"
+                >
+                  The List
+                </h2>
+                <p class="caveat" style="font-family: 'Caveat', cursive">
+                  Your Journey Begins Here!
+                </p>
               </td>
             </tr>
           </table>
           <table class="content-sec">
             <tr>
               <td>
-                <h2 class="philosopher">Hello!</h2>
-                <p class="jakarta" style="font-weight: 500">
+                <h2
+                  class="philosopher"
+                  style="font-family: 'Philosopher', sans-serif"
+                >
+                  Hello!
+                </h2>
+                <p
+                  class="jakarta"
+                  style="
+                    font-weight: 500;
+                    font-family: 'Plus Jakarta Sans', sans-serif;
+                  "
+                >
                   We're so glad you're here, ready to embark on a transformative
                   journey towards mental and emotional well-being with us.
                 </p>
@@ -255,7 +287,10 @@
                               <tr>
                                 <td>
                                   <h3
-                                    style="text-align: right"
+                                    style="
+                                      text-align: right;
+                                      font-family: 'Philosopher', sans-serif;
+                                    "
                                     class="philosopher"
                                   >
                                     IN THE MEANTIME
@@ -263,7 +298,13 @@
                                 </td>
                               </tr>
                             </table>
-                            <p style="text-align: right" class="jakarta">
+                            <p
+                              style="
+                                text-align: right;
+                                font-family: 'Plus Jakarta Sans', sans-serif;
+                              "
+                              class="jakarta"
+                            >
                               Look out for our emails with wellness tips and
                               updates. We're excited to grow and evolve with you
                               offering a space that's private, understanding and
@@ -314,7 +355,10 @@
                               <tr>
                                 <td>
                                   <h3
-                                    style="text-align: left"
+                                    style="
+                                      text-align: left;
+                                      font-family: 'Philosopher', sans-serif;
+                                    "
                                     class="philosopher"
                                   >
                                     stay connected
@@ -325,20 +369,30 @@
                             <table style="max-width: 480px" class="social">
                               <tr>
                                 <td>
-                                  <p style="text-align: left" class="jakarta">
+                                  <p
+                                    style="
+                                      text-align: left;
+                                      font-family: 'Plus Jakarta Sans',
+                                        sans-serif;
+                                    "
+                                    class="jakarta"
+                                  >
                                     Follow us on
                                     <span class="connect_img_sec">
-                                      <a href="https://www.instagram.com/yourmentra/#"
+                                      <a
+                                        href="https://www.instagram.com/yourmentra/#"
                                         ><img
                                           src="./images/insta.png"
                                           alt="instagram"
                                       /></a>
-                                      <a href="https://www.tiktok.com/@mentra_wellness?_t=8k8cC2dH6Li&_r=1"
+                                      <a
+                                        href="https://www.tiktok.com/@mentra_wellness?_t=8k8cC2dH6Li&_r=1"
                                         ><img
                                           src="./images/tiktok.png"
                                           alt="tiktok"
                                       /></a>
-                                      <a href="https://www.facebook.com/yourmentra"
+                                      <a
+                                        href="https://www.facebook.com/yourmentra"
                                         ><img
                                           src="./images/face.png"
                                           alt="facebook"
@@ -362,6 +416,7 @@
                     font-weight: 500;
                     margin-top: 50px;
                     word-spacing: 4px;
+                    font-family: 'Plus Jakarta Sans', sans-serif;
                   "
                   class="jakarta"
                 >
@@ -374,6 +429,7 @@
                     font-weight: 500;
                     margin-top: 20px;
                     word-spacing: 4px;
+                    font-family: 'Plus Jakarta Sans', sans-serif;
                   "
                   class="jakarta"
                 >
@@ -388,21 +444,6 @@
               <td class="bottom-bd"></td>
             </tr>
           </table>
-          <img
-            style="position: absolute; top: 0; left: 0; width: 30%"
-            src="./images/topl.png"
-            alt=""
-          />
-          <img
-            style="position: absolute; bottom: 0; right: 0; width: 6%"
-            src="./images/btml.png"
-            alt=""
-          />
-          <img
-            style="position: absolute; bottom: 0; right: 0; width: 10%"
-            src="./images/btml1.png"
-            alt=""
-          />
         </td>
       </tr>
     </table>
